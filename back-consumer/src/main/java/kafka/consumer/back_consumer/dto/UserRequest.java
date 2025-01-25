@@ -9,10 +9,7 @@ import java.io.Serial;
 import java.io.Serializable;
 
 @Data
-@Builder
-@NoArgsConstructor
-@AllArgsConstructor
-public class UserDto implements Serializable {
+public class UserRequest implements Serializable {
 
     @Serial
     private static final long serialVersionUID = 1L;
